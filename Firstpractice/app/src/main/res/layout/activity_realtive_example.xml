@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RealtiveExample">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/firsttext"
+        android:layout_centerInParent="true"
+        android:text="FirstText"
+        android:textSize="25sp"
+
+        />
+
+    <TextView
+        android:id="@+id/secondtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+      android:layout_margin="20dp"
+        android:text="SecondText"
+        android:textSize="25sp"
+
+        />
+
+    <TextView
+        android:id="@+id/emailtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondtext"
+        android:layout_marginLeft="12dp"
+        android:text="Email"
+        android:textSize="25sp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailedit"
+        android:layout_toRightOf="@+id/emailtext"
+        android:layout_below="@+id/secondtext"
+        android:hint="Enter email"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/thirdtext"
+        android:text="ThirdText"
+        android:layout_centerVertical="true"
+        android:textSize="25sp"
+
+
+
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="firstbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnone"/>
+
+    <Button
+        android:id="@+id/bttwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailtext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Secondbtn" />
+
+    <!--         android:layout_toRightOf="@+id/emailtext"-->
+    <!--         android:layout_below="@id/emailedit"-->
+</RelativeLayout>

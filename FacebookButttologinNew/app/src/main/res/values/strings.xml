@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FacebookButttologinNew</string>
+
+    <string name="facebook_app_id">480523786962290</string>
+    <string name="fb_login_protocol_scheme">fb480523786962290</string>
+    <string name="facebook_client_token">2361a94f8c37d0eece46cb02ecf14738</string>
+
+
+</resources>

@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "921838982915",
+    "firebase_url": "https://excelproject-a1019.firebaseio.com",
+    "project_id": "excelproject-a1019",
+    "storage_bucket": "excelproject-a1019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921838982915:android:c9b0792f82877f11a03b36",
+        "android_client_info": {
+          "package_name": "com.batch12pm.firebaseprojects"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921838982915-5g8h3jt117ja3ooed0rjs2e88uu6oipa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.batch12pm.firebaseprojects",
+            "certificate_hash": "3bbb2eb3bdd44287d9f4c1b07b115382b959cd64"
+          }
+        },
+        {
+          "client_id": "921838982915-n0ene31mllgdmjuq2531r4eoh9m3f0dr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApEXiNfCRPTiNfxGnbx5wQz-wxs9THuG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921838982915-n0ene31mllgdmjuq2531r4eoh9m3f0dr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921838982915:android:1dd3e1a77445365da03b36",
+        "android_client_info": {
+          "package_name": "com.cbitss.googleandfacebooksigningbtnmycodes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921838982915-1kt87uin8mith75mm046dhire31eji1f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cbitss.googleandfacebooksigningbtnmycodes",
+            "certificate_hash": "3bbb2eb3bdd44287d9f4c1b07b115382b959cd64"
+          }
+        },
+        {
+          "client_id": "921838982915-n0ene31mllgdmjuq2531r4eoh9m3f0dr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApEXiNfCRPTiNfxGnbx5wQz-wxs9THuG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921838982915-n0ene31mllgdmjuq2531r4eoh9m3f0dr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

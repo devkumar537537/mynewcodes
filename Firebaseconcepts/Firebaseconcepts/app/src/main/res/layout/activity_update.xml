@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click on icon to choose image"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitXY"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/selectedimage"/>
+
+    <Button
+        android:id="@+id/choosefromgallary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choosefrom Gallary"
+        android:visibility="gone"
+        />
+    <Button
+        android:id="@+id/choosefromcamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose from Camera"
+        android:visibility="gone"
+        />
+    <Button
+        android:id="@+id/upload_imagebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uploadimgae"
+        android:visibility="gone"
+        />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageprogressbar"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:background="#000"/>
+
+
+
+</LinearLayout>

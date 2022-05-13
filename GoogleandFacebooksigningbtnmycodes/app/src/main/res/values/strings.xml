@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GoogleandFacebooksigningbtnmycodes</string>
+
+
+    <string name="facebook_app_id">961852554477242</string>
+    <string name="fb_login_protocol_scheme">fb961852554477242</string>
+    <string name="facebook_client_token">10a7ee87c5d829a6c70b62ebee9786bd</string>
+
+
+</resources>
